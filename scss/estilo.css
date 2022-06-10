@@ -7,7 +7,7 @@
 
 .bodyHistoria {
   margin-top: 5vh;
-  background: #ffffff;
+  background-image: url("/images/15172169099255.jpg");
   font-family: "Koulen", cursive;
   background-size: 25rem;
 }
@@ -165,7 +165,7 @@
 @media only screen and (max-width: 600px) {
   .bodyHistoria {
     margin-top: 15vh;
-    background: #ffffff;
+    background-image: url("/images/15172169099255.jpg");
     background-size: cover;
     font-family: "Koulen", cursive;
     background-size: cover;
