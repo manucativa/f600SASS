@@ -1,124 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
-}
+  box-sizing: content-box; }
 
 .bodyHistoria {
   margin-top: 5vh;
   background-image: url("/images/15172169099255.jpg");
   font-family: "Koulen", cursive;
-  background-size: 25rem;
-}
-.bodyHistoria header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  background-color: black;
-  z-index: 999;
-}
-.bodyHistoria header .logoPrincipal {
-  display: flex;
-  align-content: center;
-  margin-left: 2rem;
-}
-.bodyHistoria header .links {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
-  margin-right: 1rem;
-}
-.bodyHistoria header .links li {
-  padding-right: 1.5rem;
-  display: inline-block;
-  text-align: center;
-  font-size: 1.5rem;
-}
-.bodyHistoria header .links li a {
-  color: white;
-  text-decoration: none;
-}
-.bodyHistoria header .links li a:hover {
-  color: #e60009;
-  text-decoration: overline #e60009;
-}
-.bodyHistoria .historia {
-  width: 95%;
-  margin: 5% auto;
-  display: grid;
-  grid-template-areas:
-    "bioHistoria imgHistoria"
-    "textoHistoria textoHistoria ";
-  grid-template-columns: 70% auto;
-  grid-template-rows: 2, auto;
-}
-.bodyHistoria .historia .bioHistoria {
-  padding: 1rem;
-  grid-area: bioHistoria;
-  margin: 1rem;
-  text-align: justify;
-  font-size: 1.25rem;
-  color: white;
-  background-color: #000000;
-}
-.bodyHistoria .historia .bioHistoria h1 {
-  text-align: center;
-  background: #e60009;
-  -webkit-text-stroke: 2px #000000;
-  font-size: 3rem;
-}
-.bodyHistoria .historia .imgHistoria {
-  background: #e60009;
-  display: flex;
-  align-content: center;
-  justify-content: end;
-  margin: 1rem;
-  grid-area: imgHistoria;
-  border: solid 1rem black;
-}
-.bodyHistoria .historia .textoHistoria {
-  padding: 1rem;
-  margin: 1rem;
-  grid-area: textoHistoria;
-  text-align: justify;
-  font-size: 1.25rem;
-  color: white;
-  background-color: #000000;
-}
-.bodyHistoria .historia .textoHistoria h1 {
-  text-align: center;
-  background: #e60009;
-  -webkit-text-stroke: 2px #000000;
-  font-size: 3rem;
-}
-.bodyHistoria footer {
-  padding: 0.25rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  background-color: black;
-  position: relative;
-  z-index: 999;
-}
-.bodyHistoria footer img:hover {
-  opacity: 0.5;
-}
-
-@media only screen and (max-width: 600px) {
-  .bodyHistoria {
-    margin-top: 15vh;
-    background-image: url("/images/15172169099255.jpg");
-    background-size: cover;
-    font-family: "Koulen", cursive;
-    background-size: cover;
-    background-size: 25rem;
-  }
+  background-size: 25rem; }
   .bodyHistoria header {
     position: fixed;
     top: 0;
@@ -128,81 +17,157 @@
     align-items: center;
     padding: 0;
     background-color: black;
-    z-index: 999;
-  }
-  .bodyHistoria header .logoPrincipal {
-    display: flex;
-    align-content: center;
-    margin-left: 2rem;
-  }
-  .bodyHistoria header .links {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    margin-right: 1rem;
-  }
-  .bodyHistoria header .links li {
-    padding-right: 1.5rem;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-  .bodyHistoria header .links li a {
-    color: white;
-    text-decoration: none;
-  }
-  .bodyHistoria header .links li a:hover {
-    color: #e60009;
-    text-decoration: overline #e60009;
-  }
+    z-index: 999; }
+    .bodyHistoria header .logoPrincipal {
+      display: flex;
+      align-content: center;
+      margin-left: 2rem; }
+    .bodyHistoria header .links {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      margin-right: 1rem; }
+      .bodyHistoria header .links li {
+        padding-right: 1.5rem;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.5rem; }
+        .bodyHistoria header .links li a {
+          color: white;
+          text-decoration: none; }
+          .bodyHistoria header .links li a:hover {
+            color: #e60009;
+            text-decoration: overline #e60009; }
   .bodyHistoria .historia {
     width: 95%;
     margin: 5% auto;
     display: grid;
-    grid-template-areas:
-      "bioHistoria"
-      "imgHistoria"
-      "textoHistoria";
-    grid-template-columns: auto;
-    grid-template-rows: 3, auto;
-  }
-  .bodyHistoria .historia .bioHistoria {
-    padding: 1rem;
-    grid-area: bioHistoria;
-    margin: 1rem;
-    text-align: justify;
-    font-size: 1.25rem;
-    color: white;
-    background-color: #000000;
-  }
-  .bodyHistoria .historia .bioHistoria h1 {
-    text-align: center;
-    background: #e60009;
-    -webkit-text-stroke: 2px #000000;
-    font-size: 3rem;
-  }
-  .bodyHistoria .historia .imgHistoria {
-    background: #e60009;
+    grid-template-areas: "bioHistoria imgHistoria" "textoHistoria textoHistoria ";
+    grid-template-columns: 70% auto;
+    grid-template-rows: 2, auto; }
+    .bodyHistoria .historia .bioHistoria {
+      padding: 1rem;
+      grid-area: bioHistoria;
+      margin: 1rem;
+      text-align: justify;
+      font-size: 1.25rem;
+      color: white;
+      background-color: #000000; }
+      .bodyHistoria .historia .bioHistoria h1 {
+        text-align: center;
+        background: #e60009;
+        -webkit-text-stroke: 2px #000000;
+        font-size: 3rem; }
+    .bodyHistoria .historia .imgHistoria {
+      background: #e60009;
+      display: flex;
+      align-content: center;
+      justify-content: end;
+      margin: 1rem;
+      grid-area: imgHistoria;
+      border: solid 1rem black; }
+    .bodyHistoria .historia .textoHistoria {
+      padding: 1rem;
+      margin: 1rem;
+      grid-area: textoHistoria;
+      text-align: justify;
+      font-size: 1.25rem;
+      color: white;
+      background-color: #000000; }
+      .bodyHistoria .historia .textoHistoria h1 {
+        text-align: center;
+        background: #e60009;
+        -webkit-text-stroke: 2px #000000;
+        font-size: 3rem; }
+  .bodyHistoria footer {
+    padding: 0.25rem;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-content: center;
-    justify-content: end;
-    margin: 1rem;
-    grid-area: imgHistoria;
-    border: solid 1rem black;
-  }
-  .bodyHistoria .historia .textoHistoria {
-    padding: 1rem;
-    margin: 1rem;
-    grid-area: textoHistoria;
-    text-align: justify;
-    font-size: 1.25rem;
-    color: white;
-    background-color: #000000;
-  }
-  .bodyHistoria .historia .textoHistoria h1 {
-    text-align: center;
-    background: #e60009;
-    -webkit-text-stroke: 2px #000000;
-    font-size: 3rem;
-  }
-}
+    background-color: black;
+    position: relative;
+    z-index: 999; }
+    .bodyHistoria footer img:hover {
+      opacity: 0.5; }
+
+@media only screen and (max-width: 600px) {
+  .bodyHistoria {
+    margin-top: 15vh;
+    background-image: url("/images/15172169099255.jpg");
+    background-size: cover;
+    font-family: "Koulen", cursive;
+    background-size: cover;
+    background-size: 25rem; }
+    .bodyHistoria header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+      background-color: black;
+      z-index: 999; }
+      .bodyHistoria header .logoPrincipal {
+        display: flex;
+        align-content: center;
+        margin-left: 2rem; }
+      .bodyHistoria header .links {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        margin-right: 1rem; }
+        .bodyHistoria header .links li {
+          padding-right: 1.5rem;
+          display: inline-block;
+          text-align: center;
+          font-size: 1.5rem; }
+          .bodyHistoria header .links li a {
+            color: white;
+            text-decoration: none; }
+            .bodyHistoria header .links li a:hover {
+              color: #e60009;
+              text-decoration: overline #e60009; }
+    .bodyHistoria .historia {
+      width: 95%;
+      margin: 5% auto;
+      display: grid;
+      grid-template-areas: "bioHistoria" "imgHistoria" "textoHistoria";
+      grid-template-columns: auto;
+      grid-template-rows: 3, auto; }
+      .bodyHistoria .historia .bioHistoria {
+        padding: 1rem;
+        grid-area: bioHistoria;
+        margin: 1rem;
+        text-align: justify;
+        font-size: 1.25rem;
+        color: white;
+        background-color: #000000; }
+        .bodyHistoria .historia .bioHistoria h1 {
+          text-align: center;
+          background: #e60009;
+          -webkit-text-stroke: 2px #000000;
+          font-size: 3rem; }
+      .bodyHistoria .historia .imgHistoria {
+        background: #e60009;
+        display: flex;
+        align-content: center;
+        justify-content: end;
+        margin: 1rem;
+        grid-area: imgHistoria;
+        border: solid 1rem black; }
+      .bodyHistoria .historia .textoHistoria {
+        padding: 1rem;
+        margin: 1rem;
+        grid-area: textoHistoria;
+        text-align: justify;
+        font-size: 1.25rem;
+        color: white;
+        background-color: #000000; }
+        .bodyHistoria .historia .textoHistoria h1 {
+          text-align: center;
+          background: #e60009;
+          -webkit-text-stroke: 2px #000000;
+          font-size: 3rem; } }
