@@ -4,11 +4,12 @@
     box-sizing: content-box;
 }
 
+$background: url("/images/15172169099255.jpg") ;
 
 .bodyHistoria {
 
     margin-top: 5vh;
-    background-image: url("/images/15172169099255.jpg");
+    background-image: $background;
     font-family: "Koulen", cursive;
     background-size: 25rem;
     header {
